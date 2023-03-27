@@ -95,7 +95,8 @@ console.log(createDetailString({ firstName: 'Jan', lastName: 'Jansen', professio
 console.log(createDetailString({ firstName: 'Kees', lastName: 'Klaasen', profession: 'brandweerman'}));
 
 function createDetailString(person) {
-  return `Het beroep van ${person.firstName} ${person.lastName} is ${person.profession}.`;
+  return "Het beroep van " + person.firstName + " " + person.lastName + " is " + person.profession + ".";
+  /*    return `Het beroep van ${person.firstName} ${person.lastName} is ${person.profession}.`;   dit is geschreven in Template literals */
 }
 
 
